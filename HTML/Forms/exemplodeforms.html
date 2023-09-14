@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Formulário</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Exemplo de Formulário</h1>
+    </header>
+    <article>
+        <form action="#">
+            <label for="cNome">Nome:</label>
+            <input autocomplete="off" type="text" size="50" name="tNome" id="cNome" required="required"/>
+            <br><br>
+            <p>Sexo:</p>
+            <input type="radio" name="tipo" id="cid" value="C"/>
+            <label for="cid">Masculino</label><br>
+            <input type="radio" name="tipo" id="inter" value="1"/>
+            <label for="inter">Feminino</label><br>
+            <p>Qual meio de Transporte você Usa?</p>
+            <input type="checkbox" id="transport1" name="transporte1" value="Bike"/>
+            <label for="transport1">Bicicleta</label><br>
+            <input type="checkbox" id="transport2" name="transporte2" value="Car"/>
+            <label for="transporte2">Carro</label><br>
+            <input type="checkbox" name="transport3" id="transporte3" value="Metro"/>
+            <label for="transport3">Metrô</label><br>
+            <input type="checkbox" id="transport4" itemid="transport4" value="Ônibus"/>
+            <label for="transport4">Ônibus</label>
+            <br><br>
+            <label for="time">Escolha seu time:</label><br>
+            <select name="time" id="time">
+                <option value="santacruz">Santa Cruz</option>
+                <option value="sport">Sport</option>
+                <option value="nautico">Náutico</option>
+                <option value="salgueiro">Salgueiro</option>
+                <option value="retro">Retrô</option>
+                <option value="ibis">Ibis</option>
+            </select> <br><br>
+            <label for="cidade">Escolha sua cidade na lista:</label><br>
+            <input list="cidade" name="tCid" id="cCid" placeholder="Sua Cidade">
+            <datalist id="cidade">
+                <option value="Olinda"></option>
+                <option value="Jaboatão do Guararapes"></option>
+                <option value="Recife"></option>
+                <option value="Igarassu"></option>
+                <option value="Abreu e Lima"></option>
+                <option value="Paulista"></option>
+            </datalist> 
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><strong>Idade:</strong></legend>
+            0
+            <input type="range" name="valor01" id="valor01">
+            100 +
+            <input type="number" name="valor02" id="valor02" value="50">
+            =
+            <output name="result" for="valor01 valor02"></output>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><strong>Sua Opnião</strong></legend>
+            <p>Sugestões, elogios e críticas:</p>
+            <textarea name="message" cols="30" rows="10" placeholder="Deixe aqui a sua mensagem!" required ></textarea>
+        </fieldset>    
+        <br><br>
+        <!--Input gera botão e value para definir seu nome-->
+            <input type="submit" value="Enviar"/>
+        </form>
+    </article>
+    <br>
+    <footer>
+        <small>By João Emanuel &copy;</small>
+    </footer>
+
+</body>
+</html>

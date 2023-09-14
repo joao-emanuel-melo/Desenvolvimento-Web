@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(49, 12, 199);
+}
+h1 {
+    font-size: 10px;
+}
+footer {
+    background-color: #f7fb00;
+}
+a {
+    text-decoration: none;
+}
