@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(255, 0, 0);
+    line-height: 1.6px;
+}
+
+header#showcase{
+    background-image: url(recife.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+header#showcase h1{
+    font-size: 3.5em;
+}
+
+.btn{
+    background-color: chartreuse;
+}

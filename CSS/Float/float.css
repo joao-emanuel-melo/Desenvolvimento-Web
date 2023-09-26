@@ -1,0 +1,25 @@
+section{
+    border: 1px solid blue;
+    height: 100%;
+}
+
+div{
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+}
+
+.esquerda{
+    float: Left;
+    background: pink;
+}
+
+.direita{
+    float: right;
+    background: cyan;
+}
+
+.neutra{
+    clear: both; /*Cancela o float*/
+    background: red;
+}

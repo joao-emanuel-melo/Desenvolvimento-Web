@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+div.Primeiro_bloco{
+    background-color: aqua;
+    font-size: 1em;
+}
+
+div.Primeiro_bloco span{
+    background-color: brown;
+    font-size: 1.5em;
+}
+
+div.segundo_bloco{
+    background-color: blueviolet;
+    font-size: 2em;
+}
+
+div.segundo_bloco span{
+    background-color: chartreuse;
+    font-size: 1.5em;
+}
+
+div.Terceiro_bloco{
+    background-color: chocolate;
+    font-size: 2em;
+}
+
+div.Terceiro_bloco span{
+    background-color: rgb(255, 0, 51);
+    font-size: 1.5em;
+}
